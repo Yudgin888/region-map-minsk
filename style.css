@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#map {
+    height: 100%;
+    width: 80%;
+}
+
+#map, .select-wrapper {
+    display: inline-block;
+}
+
+.select-wrapper select {
+    width: 200px;
+}
+
+.select-wrapper {
+    vertical-align: top;
+}
