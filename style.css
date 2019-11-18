@@ -25,3 +25,18 @@ html, body {
 .select-wrapper {
     vertical-align: top;
 }
+
+.marks-block .badge {
+    margin: 5px 0;
+    display: block;
+    cursor: pointer;
+}
+
+.marks-block {
+    display: none;
+}
+
+.marks-block.active {
+    display: block;
+}
+
